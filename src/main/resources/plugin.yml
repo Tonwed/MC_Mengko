@@ -1,0 +1,15 @@
+name: Mengko
+version: '${project.version}'
+main: com.tonwed.mengko.Mengko
+api-version: 1.15
+authors: [ Cyearl ]
+description: 这是一个测试插件
+website: tonwed.cn
+commands:
+  mksend:
+    aliases:
+      - "mks"
+    usage: "/mksend <msg>"
+    description: "test"
+    permission: "mengko.sendmsg"
+    permission-message: "lack mengko.sendmsg"
